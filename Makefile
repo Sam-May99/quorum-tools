@@ -2,7 +2,7 @@ SHELL := /bin/bash
 
 .PHONY: docker clean
 
-DOCKER_NS = jpmorganchase
+DOCKER_NS = ssmay0
 IMAGES = quorum-builder quorum
 GOBIN = $(shell pwd)/../quorum/build/bin
 GO ?= latest
